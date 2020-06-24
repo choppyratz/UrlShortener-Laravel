@@ -14,7 +14,11 @@
 ```
 3. Change database connection information in .env
 4. Create database with the name that is indicated in .env
-5. Install migrations
+5. Install dependecies
+```sh
+>  composer install
+```
+6.. Install migrations
 ```sh
 >  php artisan migrate
 ```
