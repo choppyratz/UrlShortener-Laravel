@@ -10,6 +10,8 @@ class MainController extends Controller
 {
     public function main() {
         return view('mainPage');
+        //test
+        //test
     }
 
     public function handelUrl(Request $request) {
