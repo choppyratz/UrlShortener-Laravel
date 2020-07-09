@@ -7,6 +7,7 @@ use App\Url;
 class UrlHandler 
 {
     public function addUrl($sourceUrl, $expiresData) {
+        //test
         $currDate = strtotime(date("Y-m-d H:i:s"));
         $expiresDate = "";
         $url = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];

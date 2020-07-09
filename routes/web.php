@@ -14,5 +14,8 @@
 Route::get('/', "MainController@main");
 Route::post('/', "MainController@handelUrl");
 Route::get('/{slug}', "MainController@redirect");
+Route::get('/app/test', function(){
+	
+});
 
 
